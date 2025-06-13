@@ -1,13 +1,24 @@
 ---
 layout: home
 title: "Shivani Sen"
-subtitle: "Agile Coach | Panelist | Transformation Leader"
 ---
 
-Welcome to my professional site. I am an Agile practitioner passionate about enabling organizational transformation through empowered teams, sustainable delivery, and continuous learning.
+Welcome to my personal portfolio!
 
-I currently serve as a panelist with Agile Network India, and I bring real-world experience in Agile implementation, Scrum coaching, and team enablement across industries.
+![Profile Photo](/assets/img/Profile.jpg){: width="200" }
 
-📄 [Download Resume]({{ site.baseurl }}/assets/resume.pdf)  
-📬 [Contact Me](mailto:your.email@example.com)  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+## About Me
+
+I am an experienced Agile practitioner and transformation leader, known for driving organizational agility and cultivating high‑performing teams. With a strong background in project and program management, I have led multiple enterprise‑scale Agile implementations across diverse industries, enabling teams to deliver customer value faster and more predictably.
+
+Passionate about empowering individuals and fostering collaborative cultures, I bring deep expertise in Scrum, SAFe, and Lean‑Agile practices. I am committed to continuous improvement, coaching leaders and teams to embrace change, adopt Agile mindsets, and scale agility sustainably.
+
+## Certifications
+
+- **CSM** (Certified Scrum Master), Scrum Alliance  
+- **CSPO** (Certified Scrum Product Owner), Scrum Alliance  
+- **CAL‑1** (Certified Agile Leader), Scrum Alliance
+
+## Contact
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/shivanisen12/)
