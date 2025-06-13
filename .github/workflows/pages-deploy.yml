@@ -3,7 +3,7 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches:
-      - main  # your default branch
+      - main
 
 permissions:
   contents: read
@@ -21,15 +21,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
 
-      - name: Upgrade bundler
+      - name: Install compatible Bundler
         run: gem install bundler -v 2.4.19
 
       - name: Install dependencies
-        run: bundle install --path vendor/bundle
+        run: bundle _2.4.19_ install --path vendor/bundle
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
