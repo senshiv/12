@@ -1,0 +1,27 @@
+title: "Shivani Sen"
+tagline: "Agile Coach | Panelist | Speaker"
+description: "Official site of Shivani Sen – Agile transformation leader and speaker at Agile Network India."
+url: "https://senshiv.github.io"
+baseurl: "/Shivani-Sen"
+
+author:
+  name: "Shivani Sen"
+  avatar: "/assets/img/profile.jpg"
+  bio: "Driving Agile transformation through coaching and collaboration."
+
+social:
+  email: "your.email@example.com"
+  linkedin: "your-linkedin-handle"
+  github: "senshiv"
+
+theme_mode: light
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
