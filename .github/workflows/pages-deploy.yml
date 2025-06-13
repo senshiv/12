@@ -25,9 +25,14 @@ jobs:
         with:
           ruby-version: '3.2'
 
-      - run: bundle install
+      - name: Upgrade bundler
+        run: gem install bundler -v 2.4.19
 
-      - run: bundle exec jekyll build --trace
+      - name: Install dependencies
+        run: bundle install --path vendor/bundle
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
 
       - uses: actions/upload-pages-artifact@v3
         with:
