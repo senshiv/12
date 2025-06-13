@@ -5,11 +5,11 @@ description: "Agile Practitioner & Transformation Leader"
 remote_theme: cotes2020/jekyll-theme-chirpy
 
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-remote-theme
+  - jekyll-archives
 
 # Optional: baseurl, url, etc.
