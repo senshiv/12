@@ -5,8 +5,7 @@ title: "Shivani Sen"
 
 Welcome to my personal portfolio!
 
-![Profile Photo](/Profile.jpg){: width="200" }
-
+![Profile Photo]({{ site.baseurl }}/assets/Profile.jpg){: width="200" }
 ## About Me
 
 I am an experienced Agile practitioner and transformation leader, known for driving organizational agility and cultivating high‑performing teams. With a strong background in project and program management, I have led multiple enterprise‑scale Agile implementations across diverse industries, enabling teams to deliver customer value faster and more predictably.
