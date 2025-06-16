@@ -2,8 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
   contents: read
@@ -12,12 +11,11 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -26,7 +24,7 @@ jobs:
         with:
           ruby-version: '3.2'
 
-      - name: Install compatible Bundler
+      - name: Install Bundler
         run: gem install bundler -v 2.4.19
 
       - name: Install dependencies
@@ -35,7 +33,10 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
-      - uses: actions/upload-pages-artifact@v1
+      - name: Debug: Ensure site built
+        run: ls -la _site
+
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
@@ -48,4 +49,4 @@ jobs:
 
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v3
