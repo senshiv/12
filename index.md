@@ -17,7 +17,7 @@ Passionate about empowering individuals and fostering collaborative cultures, I 
 
 - **CSM** (Certified Scrum Master), Scrum Alliance  
 - **CSPO** (Certified Scrum Product Owner), Scrum Alliance  
-- **CAL‑1** (Certified Agile Leader), Scrum Alliance
+- **CAL‑1** (Certified Agile Leade), Scrum Alliance
 
 ## Contact
 
