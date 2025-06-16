@@ -34,9 +34,6 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
-      - name: Debug: Check _site exists
-        run: ls -la _site
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
