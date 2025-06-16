@@ -5,7 +5,7 @@ title: "Shivani Sen"
 
 Welcome to my personal portfolio!
 
-![Profile Photo](/Profile.jpg){: width="200" }
+![Profile Photo]({{ site.baseurl }}/Profile.jpg){: width="200" }
 
 ## About Me
 
