@@ -1,17 +1,32 @@
-# Site settings
-title: "Shivani Sen"
-description: "Agile Practitioner & Transformation Leader"
-#theme: jekyll-theme-chirpy
-remote_theme: cotes2020/jekyll-theme-chirpy
+title: Shivani Sen
+tagline: Agile Practitioner & Transformation Leader
+description: My Agile journey, certifications, thoughts, and more.
 baseurl: "/Shivani-Sen"
 url: "https://senshiv.github.io"
 
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-include-cache
-  - jekyll-archives
+remote_theme: cotes2020/jekyll-theme-chirpy
 
-# Optional: baseurl, url, etc.
+lang: en
+timezone: Asia/Kolkata
+
+github:
+  username: senshiv
+
+theme_mode: light  # or dark / auto
+
+# Navigation bar tabs
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-include-cache
